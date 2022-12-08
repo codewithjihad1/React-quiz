@@ -103,7 +103,7 @@ export default function Quiz() {
             progress={percentage}
             submit={submitQuiz}
           />
-          <MiniPlayer />
+          <MiniPlayer videoID={id} />
         </>
       )}
     </>
