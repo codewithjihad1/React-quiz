@@ -13,7 +13,7 @@ export default function SignupFrom() {
   const [confirmPassword, setConfirmPassword] = useState();
   const [agree, setAgree] = useState();
   const [error, setError] = useState();
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   const navigate = useNavigate();
 
